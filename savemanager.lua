@@ -40,7 +40,7 @@ if typeof(copyfunction) == "function" then
 end
 
 local SaveManager = {} do
-    SaveManager.Folder = 'Prawl_DEV1'
+    SaveManager.Folder = 'jewhackhvh'
     SaveManager.SubFolder = ''
     SaveManager.Ignore = {}
     SaveManager.Library = nil
