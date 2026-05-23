@@ -111,10 +111,10 @@ local ThemeManager = {} do
 	end
 
 	function ThemeManager:CreateThemeManager(groupbox)
-		groupbox:AddLabel('Background Color'):AddColorPicker('BackgroundColor', { Default = self.Library.BackgroundColor });
-		groupbox:AddLabel('Main Color'):AddColorPicker('MainColor', { Default = self.Library.MainColor });
+		--groupbox:AddLabel('Background Color'):AddColorPicker('BackgroundColor', { Default = self.Library.BackgroundColor });
+		--groupbox:AddLabel('Main Color'):AddColorPicker('MainColor', { Default = self.Library.MainColor });
 		groupbox:AddLabel('Accent Color'):AddColorPicker('AccentColor', { Default = self.Library.AccentColor });
-		groupbox:AddLabel('Outline Color'):AddColorPicker('OutlineColor', { Default = self.Library.OutlineColor });
+		--groupbox:AddLabel('Outline Color'):AddColorPicker('OutlineColor', { Default = self.Library.OutlineColor });
 		groupbox:AddLabel('Font Color'):AddColorPicker('FontColor', { Default = self.Library.FontColor }); -- changed color in all this to capital
 		groupbox:AddLabel('Glow Color'):AddColorPicker('Glowcolor', { Default = self.Library.Glowcolor });
 		
