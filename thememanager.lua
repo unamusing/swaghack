@@ -36,8 +36,9 @@ local ThemeManager = {} do
 	ThemeManager.Folder = 'jewhackhvh'
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Default'] = { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0d0d0d","AccentColor":"93bbff","BackgroundColor":"131313","OutlineColor":"141414","Glowcolor":"93bbff"}') },
+		['Default'] = { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0d0d0d","AccentColor":"a2ff93","BackgroundColor":"131313","OutlineColor":"141414","Glowcolor":"a2ff93"}') },
 		['JewHackMain'] = { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0d0d0d","AccentColor":"ff4482","BackgroundColor":"131313","OutlineColor":"141414","Glowcolor":"ff2b77"}') },
+		['Sky'] = { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0d0d0d","AccentColor":"93bbff","BackgroundColor":"131313","OutlineColor":"141414","Glowcolor":"93bbff"}') },
 	}
 
 	function ThemeManager:SetLibrary(library) self.Library = library
