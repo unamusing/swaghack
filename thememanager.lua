@@ -38,11 +38,6 @@ local ThemeManager = {} do
 	ThemeManager.BuiltInThemes = {
 		['Default'] = { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0d0d0d","AccentColor":"93bbff","BackgroundColor":"131313","OutlineColor":"141414","Glowcolor":"93bbff"}') },
 		['JewHackMain'] = { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0d0d0d","AccentColor":"ff4482","BackgroundColor":"131313","OutlineColor":"141414","Glowcolor":"ff2b77"}') },
-	  	['Lucid.bid'] = { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0d111a","AccentColor":"eab308","BackgroundColor":"090d13","OutlineColor":"1a2232","Glowcolor":"fbbf24"}') },
-		['Fatality'] = { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"221b46","AccentColor":"d74a7a","BackgroundColor":"181233","OutlineColor":"342e57","Glowcolor":"d74a7a"}') },
-		['Night'] = { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0e0918","AccentColor":"9d6df7","BackgroundColor":"08060e","OutlineColor":"1f1433","Glowcolor":"9d6df7"}') },
-		['Quartz'] = { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1b1d23","AccentColor":"5ac8fa","BackgroundColor":"121317","OutlineColor":"2b2e34","Glowcolor":"5ac8fa"}') },
-		['OneTap'] = { 6, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"22232b","AccentColor":"e2b768","BackgroundColor":"191a1f","OutlineColor":"32333a","Glowcolor":"e2b768"}') },
 	}
 
 	function ThemeManager:SetLibrary(library) self.Library = library
